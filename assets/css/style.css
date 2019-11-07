@@ -218,11 +218,11 @@ footer div p a {
   font-size: 22px;
 }
 
-.main_header .main_nav li a{
+.main_header .main_nav li a {
+    font-family: 'Raleway', sans-serif;
   color:#EEB238;
   display: inline-block;
   height: 28px;
-  text-decoration: none;
 }
 
 .main_header .main_nav li a.active {
@@ -299,7 +299,7 @@ footer div p a {
 }
 
 
-/* tablet/ipads | portrait and Landscapei */
+/* tablet/ipads | portrait and Landscape */
 @media only screen and (min-width: 768px) and (max-width: 960px) {
 
   .main_header .info_nav {
