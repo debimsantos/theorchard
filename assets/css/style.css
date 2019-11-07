@@ -59,6 +59,9 @@ footer div p a {
   text-decoration: none;
 }
 
+.icons {
+    text-align: justified;
+}
 #home_footer {
   background-color: #fff;
 }
@@ -426,7 +429,7 @@ footer div p a {
   }
 
   .main_header .info_nav span {
-    float: right;
+    float: right
     text-align: right;
     margin-right: 5px;
     font-size: 90%;
@@ -544,4 +547,27 @@ footer div p a {
     padding: 0px;
   }
 
+  .column {
+    width: 100%;
+  }
+}
+
+
+.footerwrap {
+  margin: 15px;
+  background-color: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
