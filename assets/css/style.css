@@ -22,10 +22,20 @@ a, a:active, a:focus {
   transform: translate(-50%, -50%);
 }
 
-h1 {
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 1vw;
+  color: #FFE5A0;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.comingsoon {
   font-family: 'Rouge Script', cursive;
   font-size: 10vw;
   color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 footer {
@@ -223,13 +233,13 @@ footer div p a {
 
 .main_header .main_nav li a {
     font-family: 'Raleway', sans-serif;
-  color:#EEB238;
+  color: #4a4a4a;
   display: inline-block;
   height: 28px;
 }
 
 .main_header .main_nav li a.active {
-  color:#4a4a4a;
+  color:#507F70;
 }
 
 .section_divider img {
