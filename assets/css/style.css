@@ -345,10 +345,12 @@ footer div p a {
 
 /* smaller tablets portrait and landscape */
 @media only screen and (min-width: 569px) and (max-width: 767px) {
-
+  .main_nav ul {
+    text-align: center;
+  }
   .main_header .info_nav span {
     float: right;
-    text-align: right;
+    text-align: center;
     margin-right: 5px;
     font-size: 100%;
     width: 80%;
