@@ -4,7 +4,7 @@ body {
    font-family: HelveticaNeue,Helvetica,Arial,sans-serif;
    color:#666666;
    line-height: 1.7em;
-   text-align: left;
+   /*text-align: left;*/
 }
 
 button::-moz-focus-inner {
@@ -27,7 +27,7 @@ a, a:active, a:focus {
   bottom: 8px;
   right: 16px;
   font-size: 1vw;
-  color: #FFE5A0;
+  color: whitesmoke;
   text-shadow: 2px 2px 4px #000000;
 }
 
@@ -345,13 +345,19 @@ footer div p a {
 
 /* smaller tablets portrait and landscape */
 @media only screen and (min-width: 569px) and (max-width: 767px) {
-  .main_nav ul {
+
+  .links {
     text-align: center;
   }
-  .main_header .info_nav span {
-    float: right;
+
+  .main_nav ul li{
     text-align: center;
-    margin-right: 5px;
+
+  }
+  .main_header .info_nav span {
+    /*float: right; */
+    text-align: center;
+    margin: auto;
     font-size: 100%;
     width: 80%;
     line-height: 1em;
@@ -435,15 +441,24 @@ footer div p a {
 
 /*  smart  phones | portrait and Landscape */
 @media only screen and (min-width: 240px) and (max-width: 568px) {
+
+  .links {
+    text-align: center;
+  }
+
+  .links ul li {
+    display: inline;
+  }
+
   .main_header .info_nav {
     display: block;
     position: relative;
   }
 
   .main_header .info_nav span {
-    float: right
-    text-align: right;
-    margin-right: 5px;
+    /*float: right */
+    text-align: center;
+    margin-right: auto;
     font-size: 90%;
     width: 90%;
     line-height: 1em;
@@ -498,6 +513,7 @@ footer div p a {
     margin: auto;
     display: block;
   }
+
   .contact #block {
     padding: 3px 5px;
   }
@@ -562,24 +578,24 @@ footer div p a {
   .column {
     width: 100%;
   }
-}
 
 
-.footerwrap {
-  margin: 15px;
-  background-color: white;
-}
+  .footerwrap {
+    margin: 15px;
+    background-color: white;
+  }
 
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
 }

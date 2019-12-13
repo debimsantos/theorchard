@@ -74,7 +74,7 @@ if ($status == 0)
   $from = "admin@theorhard.com";
   //$bcc = "jude@yourtechy.com,debi@yourtechy.com,debimortola@gmail.com,jude.msantos@gmail.com";
   if ($type === 'retail') {
-    //$to = "rcude@naicapital.com";
+    //$to = "dbacani@lee-associates.com";
     $to = "debimortola@gmail.com";
     $subject = 'Retail';
   } else {
