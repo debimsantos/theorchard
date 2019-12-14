@@ -3,7 +3,7 @@ body {
    font-size: 100%;
    font-family: HelveticaNeue,Helvetica,Arial,sans-serif;
    color:#666666;
-   line-height: 1.7em;
+   line-height: 1.7;
    /*text-align: left;*/
 }
 
@@ -41,7 +41,7 @@ a, a:active, a:focus {
 footer {
   width: 100%;
   height: 74px;
-  line-height: 18px;
+  line-height: 1.3;
   background-color: #4a4a4a;
   display: table;
 }
@@ -123,7 +123,7 @@ footer div p a {
 #sub_content .description {
   margin-top: 40px;
   padding: 10px 120px 10px 80px;
-  line-height: 20px;
+  line-height: 1.6;
   font-size: 15px;
   color: #4a4a4a;
 }
@@ -456,7 +456,7 @@ footer div p a {
   }
 
   .main_header .info_nav span {
-    /*float: right */
+    float: none;
     text-align: center;
     margin-right: auto;
     font-size: 90%;
@@ -480,20 +480,36 @@ footer div p a {
   }
 
   .main_header .main_nav {
-    position: relative;
+    position: absolute;
+    text-align: center;
     display: block;
-    margin-right: 20px;
+    margin: auto;
+    width: 100%;
     height: auto;
   }
 
   .main_header .main_nav li {
-    float:right;
+    text-align: center;
     font-size: 100%;
-    margin-right: 20px;
+
   }
 
   #main_retail {
     display: block;
+  }
+
+  .bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 11px;
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px #000000;
+  }
+
+  #mgt {
+  width: 40%;
+  height: auto;
   }
 
   #sub_content {
