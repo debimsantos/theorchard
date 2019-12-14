@@ -78,7 +78,7 @@ if ($status == 0)
     $to = "debimortola@gmail.com";
     $subject = 'Retail';
   } else {
-    //$to = "newhallcrossings@gmail.com";
+    //$to = "prflorida@serranodevelopment.com";
     $to = "debimortola@gmail.com";
     $subject = 'Residential';
   }
