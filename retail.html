@@ -107,7 +107,8 @@
                             <input name="name" id="name" type="text" placeholder="Name" />
                             <input name="email" id="email" type="email" placeholder="Email" />
                             <input name="phone" id="phone" type="tel" placeholder="Phone Number" />
-                            <input name="date" id="date" type="date" placeholder="Desired Move in Date" />
+                            <input name="date" id="date" type="date" placeholder="Desired Move in Date"
+                            onfocus="(this.type='date')" onblur="(this.type='text')" />
                             <input name="tenant" id="tenant" type="text" placeholder="Name of Tenant" />
                             <input name="tenantType" id="tenantType" type="text" placeholder="Type of Tenant" />
                             <label id="lblError" class="error"
